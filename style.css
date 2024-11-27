@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*banner*/
+img.banner {
+    width:100%;
+    height:730px;
+    object-fit: cover;
+}
+
+/*导航栏*/
+.nav {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color:pink;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -3px;
+
+}
+
+.nav a {
+    text-align: center;
+    width: 18%;
+    height: 100%;
+    text-decoration:none;
+    font-size: 23px;
+    color: white;
+}
+
+.nav a.active{
+    
+    background-color:palevioletred;
+}
+.title{
+    width:40%;
+    height:50px;
+    line-height: 50px;
+    background-color:white;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 40px;
+}
+
+.title::after{
+    content: '——————';
+    margin-right: 30px;
+}
+.title::before{
+    content: '——————';
+    margin-right: 30px;
+}
+
+.footer{
+    width: 100%;
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+    background-color: pink;
+    font-size: 20px;
+    color: white;
+}
+.img:hover{
+    transition: all .3s;
+    box-shadow: 1px 1px 1px slategray;
+    cursor: pointer;
+
+}
